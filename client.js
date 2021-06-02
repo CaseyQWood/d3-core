@@ -58,9 +58,6 @@ const handleUserInput = (key) => {
   if (key === '\u0003') {
     process.exit()
   }
-  // stdin.on('SIGINT', () => {
-  //   console.log('test');
-  // });
 }
 
 module.exports = {

@@ -1,5 +1,6 @@
-const {connect, setupInput} = require('./client')
-const rl = require('readline')
+const {connect} = require('./client')
+const {setupInput} = require('./input')
+
 
 console.log('connecting....')
 connect();
